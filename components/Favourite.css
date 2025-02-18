@@ -1,0 +1,78 @@
+.favourite-page {
+    width: 100vw;
+    padding: 20px;
+    text-align: center;
+    background-color: #0d0505;
+    min-height: 100vh;
+}
+
+.favourite-title {
+    font-size: 2.5rem;
+    color: #4a5bf8;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.no-favourites {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-top: 50px;
+}
+
+.favourite-grid {
+    display: flex;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    justify-content: center;
+    padding: 10px;
+}
+
+.favourite-card {
+    position: relative;
+    width: 250px;
+    background: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.favourite-card:hover {
+    transform: scale(1.05);
+   box-shadow: #ff6600;
+}
+
+.favourite-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.song-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.song-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+.song-artist {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+.remove-button {
+    width: 100%;
+    padding: 10px;
+    background: rgba(48, 75, 195, 0.824);
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
