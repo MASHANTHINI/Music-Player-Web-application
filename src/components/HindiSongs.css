@@ -1,0 +1,49 @@
+.hindi-songs {
+  text-align: center;
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  color: rgb(49, 121, 229);
+}
+
+.song-list {
+  display: flex;
+
+  justify-content: center;
+  gap: 20px;
+}
+
+.song-card {
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.song-image {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.song-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.song-artist {
+  font-size: 14px;
+  color: gray;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+background-color: rgb(84, 84, 231);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
